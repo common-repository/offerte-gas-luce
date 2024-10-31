@@ -1,0 +1,101 @@
+/* @group offerte-gas-luce-widget */
+
+.offerte-gas-luce-widget{
+	color: #494949;
+	font-family: sans-serif;
+	font-size: inherit;
+	text-align: center;
+}
+.offerte-gas-luce-widget a{
+	color: #494949;
+	text-decoration: none;
+}
+.offerte-gas-luce-widget__logo{
+	width: 25px;
+	height: auto;
+	margin: 0 10px 0 0;
+	vertical-align: middle;
+}
+.offerte-gas-luce-widget__h2{
+	margin-top: 10px;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+.offerte-gas-luce-widget p{
+	padding: 0 15px;
+	font-size: .8em;
+	text-align: justify;
+}
+.offerte-gas-luce__table {
+	
+}
+.offerte-gas-luce__li {
+	display: flex !important;
+	align-content: center !important;
+	padding: 0 !important;
+	border-bottom: 1px solid rgba(204, 204, 204, .5) !important;
+	text-align: center !important;
+}
+.offerte-gas-luce__li:last-child {
+	border-bottom: none !important;
+}
+.offerte-gas-luce__logo {
+	width: 28% !important;
+	height: auto;
+	flex: 0 0 28%;
+	object-fit: cover !important;
+}
+.offerte-gas-luce__link {
+	margin: auto !important;
+	padding: 0 5px !important;
+}
+
+.offerte-gas-luce-widget ul{
+	padding: 0;
+	list-style: none;
+}
+.offerte-gas-luce-widget li{
+	padding: 1.2em;
+	margin: 0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+}
+.offerte-gas-luce-widget li:first-child{
+	border-top: none;
+}
+.offerte-gas-luce-widget li:last-child{
+	border-bottom: none;
+}
+.offerte-gas-luce-widget .offerta__link{
+	display: block;
+	padding: .5em 0;
+	margin-bottom: .4em;
+}
+.offerte-gas-luce-widget .operatore{
+	margin: 0 auto .4em;
+	display: block;
+	text-indent: 9999px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.offerte-gas-luce-widget .operatore img {
+	display: block;
+	width: 130px;
+	height: auto;
+	margin: 0 auto;
+}
+.offerte-gas-luce-widget .speed{
+	margin: 0 1em 0 0;
+}
+.offerte-gas-luce-widget del{
+	color: #a80000;
+	margin: 0 .6em;
+	font-size: .8em;
+	display: none;
+}
+.offerte-gas-luce-widget .promo{
+	color: green;
+	margin: 0 0 0 1em;
+}
+
+/* @end */
